@@ -1,19 +1,39 @@
 body{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+/*--------------------------------------
+
+Typography
+
+---------------------------------------*/
+
+header{
     text-align:center;
     background-color: #f8f8f8;
+    padding: 2em 0;
 }
 
 h1{
-    font-family:sans-serif;
+   
     color:#143774;
     font-size: 3.375rem;
+    margin: 0;
 }
 
 .subtitle{
-    color: #1792d2;
-    font-size:1rem;
+    color:#1792d2;
+    font-size:.75rem;
     font-weight: bold;
+    margin: 0;
 }
+
+/*--------------------------------------
+
+Navigation
+
+---------------------------------------*/
 
 nav ul{
     list-style: none;
@@ -27,15 +47,21 @@ nav li{
 }
 
 nav a{
-
-}
-
-nav a:hover{
-
-}
-
-.navigation{
+    text-decoration: none;
     color: #707070;
-    font-size:1rem;
     font-weight: bold;
+    padding: 0.25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page{
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover{
+    color: #707070;
 }
