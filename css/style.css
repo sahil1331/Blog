@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+    background-color: #f8f8f8;
+}
+
+h1{
+    font-family:sans-serif;
+    color:#143774;
+    font-size: 3.375rem;
+}
+
+.subtitle{
+    color: #1792d2;
+    font-size:1rem;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content:center;
+}
+
+nav li{
+    margin:0 1rem;
+}
+
+nav a{
+
+}
+
+nav a:hover{
+
+}
+
+.navigation{
+    color: #707070;
+    font-size:1rem;
+    font-weight: bold;
+}
